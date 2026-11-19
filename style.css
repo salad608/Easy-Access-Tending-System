@@ -1,0 +1,56 @@
+:root {
+    --primary: #000000;
+    --primary-light: #000000;
+    --primary-dark: #000000;
+    --secondary: #000000;
+    --secondary-light: #000000;
+    --secondary-dark: #000000;
+}
+
+title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body h1 {
+    text-align: center;
+}
+
+body p {
+    font-size: 14px;
+}
+
+nav {
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: horizontal;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+
+img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
